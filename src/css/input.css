@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-base {
+  @apply bg-gradient-to-r from-dark to-gold bg-clip-text text-transparent;
+}
+
+.button-color {
+  @apply bg-dark rounded-md shadow-md text-light2 hover:opacity-80;
+}
+
+.efek-kaca {
+  @apply bg-white/30 backdrop-blur-lg backdrop-saturate-150 border border-light2/20;
+}

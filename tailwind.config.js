@@ -5,17 +5,23 @@ module.exports = {
     container: {
       center: true,
       padding: "16px",
+      margin: "120px",
     },
     extend: {
       colors: {
-        light: "#14b8a6",
-        dark: "#0f172a",
-        secondary: "#64748b",
+        light: "#F6E2BC",
+        light2: "#F1D384",
+        dark: "#34242C",
+        brogre: "#B09666",
+        gold: "#E4B455",
+        secondary: "#2C1E0E",
+        abu: "#BCBCAC",
+        btlor: "#4E3518",
       },
       screens: {
         "2xl": "1320px",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
